@@ -6,6 +6,7 @@ public class Main {
         System.out.println(test.checkBalance());
         System.out.println(test.withdrawCash(2000));
         System.out.println(test.getROI());
+        test.depositCash(100);
         System.out.println(test.checkBalance());
     }
 }
